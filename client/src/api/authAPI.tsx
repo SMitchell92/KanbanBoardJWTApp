@@ -1,9 +1,10 @@
 import { UserLogin } from "../interfaces/UserLogin";
 
-const login = async (userInfo: UserLogin): Promise<any> => {
+const login = async (userInfo: UserLogin): Promise<any > => {
   // TODO: make a POST request to the login route
+  console.log('userInfo', userInfo);
   try {
-    const response = await fetch('/pages/Login', {
+    const response = await fetch('/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

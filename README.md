@@ -14,6 +14,7 @@ Allows Kanban attendees to log into their secure accounts to view and manage the
 ## Installation
 
 Go to the deployed page on Render at https://kanbanboardjwtapp.onrender.com/
+Log in with username "SunnyScribe", "JollyGuru", or "RadiantComet", and password "password".
 
 ## Usage
 
